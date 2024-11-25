@@ -5,7 +5,6 @@ body {
     flex-direction: column;
     font-family: roboto;
     min-height: 100vh;
-
     /*  TODO: Fix content inside cards
         not being centered.  */
     /* align-items: center; */
@@ -16,6 +15,7 @@ body {
     flex-grow: 1;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
 
@@ -47,7 +47,7 @@ body {
 
 /* Card 1 */
 .card-1 {
-    gap: 48px;
+    gap: 12px;
     padding-top: 48px;
     padding-bottom: 48px;
 }
@@ -60,6 +60,10 @@ body {
 h1 {
     font-size: 48px;
     margin: 0;
+}
+
+img {
+    max-width: 100%;
 }
 
 .subtext {
