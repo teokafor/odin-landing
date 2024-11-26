@@ -141,8 +141,38 @@ h2 {
     margin:0;
 }
 
+
+/* Card 4 */
 .card-4 {
-    background-color: grey;
+    background-color: white;
+}
+
+.call-to-action {
+    background-color: #3882f6;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-grow: 1;
+    padding: 40px 120px;
+}
+
+.call-to-action p {
+    margin: 0;
+}
+
+.cta-heading {
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.sign-up-inverted {
+    font-weight: 500;
+    border-style: solid;
+    border-radius: 8px;
+    padding: 5px 20px;
+    border-width: 2px;
+    font-size: 18px;
 }
 
 .footer {
@@ -151,11 +181,11 @@ h2 {
 
 
 /* Colors */
-.white, h1, .sign-up {
+.white, h1, .sign-up, .cta-heading, .sign-up-inverted {
     color: #F9FAF8;
 }
 
-.off-white, .header-links a, .subtext {
+.off-white, .header-links a, .subtext, .cta-subheading {
     color: #e5e7eb;
 }
 
